@@ -25,10 +25,10 @@ public class MessageRepository {
 
     private void initializeMessages() {
         this.messages.addAll(Arrays.asList(
-                new MessageRecord("was memed by", EnumMessageType.MEME),
-                new MessageRecord("took the L by", EnumMessageType.MEME),
+                new MessageRecord("has memed", EnumMessageType.MEME),
+                new MessageRecord("has given the L to", EnumMessageType.MEME),
 
-                new MessageRecord("was sent to moon by", EnumMessageType.TROLL),
+                new MessageRecord("has wiped", EnumMessageType.TROLL),
                 new MessageRecord("has skulled", EnumMessageType.TROLL)
         ));
     }
