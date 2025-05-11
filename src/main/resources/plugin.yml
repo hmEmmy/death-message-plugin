@@ -1,0 +1,3 @@
+name: DeathMessage
+version: '${project.version}'
+main: me.emmy.deathmessage.DeathMessage
