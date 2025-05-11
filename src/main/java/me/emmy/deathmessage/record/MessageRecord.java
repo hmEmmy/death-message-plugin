@@ -35,6 +35,6 @@ public class MessageRecord {
      * @return the death message.
      */
     public String constructMessage(String killer, String victim) {
-        return CC.translate("&c" + killer + "&f" + this.message + " &c" + victim);
+        return CC.translate("&c" + killer + " &f" + this.message + " &c" + victim);
     }
 }

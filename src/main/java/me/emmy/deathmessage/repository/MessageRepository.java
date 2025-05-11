@@ -29,7 +29,7 @@ public class MessageRepository {
                 new MessageRecord("took the L by", EnumMessageType.MEME),
 
                 new MessageRecord("was sent to moon by", EnumMessageType.TROLL),
-                new MessageRecord("skulled", EnumMessageType.TROLL)
+                new MessageRecord("has skulled", EnumMessageType.TROLL)
         ));
     }
 
